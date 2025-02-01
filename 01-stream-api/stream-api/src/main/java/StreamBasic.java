@@ -5,7 +5,7 @@ import java.util.stream.*;
 
 public class StreamBasic {
 
-    //filter the elements
+    //filter the elements, basically filter accepts a functional interface predicate it has a test method and the return type is boolean
     private List<Integer> filterMethod(List<Integer> numList){
         return numList.stream()
                 .filter(n->n==0)
